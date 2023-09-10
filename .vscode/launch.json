@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-DeliveryboyApplication<deliveryboy>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.sb.event.driven.deliveryboy.deliveryboy.DeliveryboyApplication",
+      "projectName": "deliveryboy",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-EnduserApplication<enduser>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.sb.event.driven.enduser.enduser.EnduserApplication",
+      "projectName": "enduser",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

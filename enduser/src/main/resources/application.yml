@@ -1,0 +1,17 @@
+server:
+  port: 8082
+spring:
+  kafka:
+    consumer:
+      bootstrap-servers: "localhost:9092"
+      group-id: "group-1"
+      auto-offset-reset: earliest
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+kafka-consumer:
+  topic-name: "location-update-topic"
+  group-id: "group-1"
+# logging:
+#   level:
+#     org.springframework.kafka: trace
